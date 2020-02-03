@@ -12,11 +12,11 @@ const subject = (props) => {
             <div className="Subject">
                 <h1 onClick = {() => subjectOnClick(subject)}>{subject}</h1>
                 <Teacher name = {teacher}/>
-                <Student>
+                <Student
                     students = {students}
                     subject = {subject}
                     studentOnClick = {studentOnClick}
-                </Student>
+                ></Student>
             </div>
         )
     }else{

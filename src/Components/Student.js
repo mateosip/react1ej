@@ -23,7 +23,7 @@ const Student = (props) => {
                {name2} - {mark2enabled ? mark2 : ""}
            </p>
            <p onClick = {() => studentOnClick(name3,subject)}>
-               {name3} = {mark3enabled ? mark3 : ""}
+               {name3} - {mark3enabled ? mark3 : ""}
            </p>
         </div>
     )
